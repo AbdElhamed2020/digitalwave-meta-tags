@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+<!--    <type name="Magento\Framework\View\Page\Config">-->
+<!--        <plugin name="add_meta_tags_plugin" type="Digitalwave\MetaTags\Plugin\AddMetaTags" />-->
+<!--    </type>-->
+    <type name="Magento\Catalog\Helper\Product\View">
+        <plugin
+            name="add_meta_tags_plugin"
+            type="Digitalwave\MetaTags\Plugin\AddMetaTags" />
+    </type>
+</config>
