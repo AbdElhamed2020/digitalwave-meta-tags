@@ -2,6 +2,14 @@
     "name": "digitalwaves/digitalwave-meta-tags",
     "description": "Add The Site Name With Meta Title",
     "type": "magento2-module",
+    "authors": [
+        {
+            "name": "Abd Elhamed Refat",
+            "email": "a.refat@safagrp.com",
+            "homepage": "https://thebeautysecrets.com",
+            "role": "Developer"
+        }
+    ],
     "license": [
         "OSL-3.0",
         "AFL-3.0"
